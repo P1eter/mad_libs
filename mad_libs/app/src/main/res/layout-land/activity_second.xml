@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.pieter.mad_libs.SecondActivity">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:singleLine="false"
+        android:text="@string/pick_a_story"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="TextView" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textMultiLine"-->
+        <!--android:selectAllOnFocus="false"-->
+        <!--android:singleLine="false"-->
+        <!--android:text="@string/pick_a_story"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Display2" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/simplebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToThird"
+            android:text="@string/simple" />
+
+        <Button
+            android:id="@+id/tarzanbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToThird"
+            android:text="@string/tarzan" />
+
+        <Button
+            android:id="@+id/universitybutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToThird"
+            android:text="@string/university" />
+
+        <Button
+            android:id="@+id/clothesbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToThird"
+            android:text="@string/clothes" />
+
+        <Button
+            android:id="@+id/dancebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToThird"
+            android:text="@string/dance" />
+
+        <Button
+            android:id="@+id/randombutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToThird"
+            android:text="@string/random_story" />
+    </LinearLayout>
+
+</LinearLayout>

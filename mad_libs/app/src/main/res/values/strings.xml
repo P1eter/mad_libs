@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mad_libs</string>
+    <string name="start">Start!</string>
+    <string name="pick_a_story">Pick a story!</string>
+    <string name="simple">Simple</string>
+    <string name="tarzan">tarzan</string>
+    <string name="university">university</string>
+    <string name="clothes">clothes</string>
+    <string name="dance">dance</string>
+    <string name="random_story">random story</string>
+    <string name="fill_in_the_words_to_complete_the_story">Fill in the words to complete the story!</string>
+</resources>
